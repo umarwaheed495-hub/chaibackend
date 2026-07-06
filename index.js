@@ -18,6 +18,6 @@ app.get('/login', (req, res)=>{
 app.get('/Youtube', (req,res)=>{
     res.send('<h2> chai aur code</h2>');
 })
-app.listen(process.env.PORT, () => {
-   console.log(`Example app listening on port ${port}`)
+app.listen(port, () => {
+   console.log(`Server is running on port ${port}`);
 })
